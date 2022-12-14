@@ -76,7 +76,7 @@ class MicrosoftAzureTranslatorFunctionalTest extends TestCase
         $this->assertSame(array(
             'Dit is een test',
             'Mijn naam is Matthias.',
-            'Je bent naïef.',
+            'Je bent naïef!',
         ), $translatedTexts);
     }
 
